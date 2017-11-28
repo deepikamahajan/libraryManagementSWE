@@ -24,6 +24,28 @@ public class Book {
         this.__Price=Price;
     }
 
+    public void set_author(List<Author> _author) {
+        this._author = _author;
+    }
+
+    public void set_Department_Id(int _Department_Id) {
+        this._Department_Id = _Department_Id;
+    }
+
+    public void set__Price(Double __Price) {
+        this.__Price = __Price;
+    }
+
+    public void set_Name(String _Name) {
+        this._Name = _Name;
+    }
+
+    public void set_Edition(String _Edition) {
+        this._Edition = _Edition;
+    }
+
+
+
     public int get_Department_Id() {
         return _Department_Id;
     }
