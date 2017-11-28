@@ -27,36 +27,12 @@ public class Author {
         this.decased = decased;
     }
 
-    public void setPublication(String publication) {
-        this.publication = publication;
-    }
-
-    private String publication;
-
-    public Author(String name, String nationality, Date birthDate, Date decased, String publication) {
-        this.name = name;
-        this.nationality = nationality;
-        this.birthDate = birthDate;
-        this.decased = decased;
-        this.publication = publication;
-    }
-
-
-
     public Author(String name, String nationality, Date birthDate, Date decased) {
         this.name = name;
         this.nationality = nationality;
         this.birthDate = birthDate;
         this.decased = decased;
     }
-
-    public Author(String name, String nationality, Date birthDate) {
-        this.name = name;
-        this.nationality = nationality;
-        this.birthDate = birthDate;
-    }
-
-
     public String getName() {
         return name;
     }
@@ -73,7 +49,4 @@ public class Author {
         return decased;
     }
 
-    public String getPublication() {
-        return publication;
-    }
 }

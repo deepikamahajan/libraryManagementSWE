@@ -14,14 +14,43 @@ public class Book {
    private String _Name;
     private String _Edition;
     private Double __Price;
+    private String _publication;
 
-    public Book(List<Author> author, String title,int Department_Id, String Name,String Edition,Double Price) {
+    public Book(List<Author> author, String title,int Department_Id, String Name,String Edition,Double Price,String publication) {
         this._author=author;
         this._title = title;
         this._Department_Id=Department_Id;
         this._Name=Name;
         this._Edition=Edition;
         this.__Price=Price;
+        this._publication=publication;
+    }
+    public String get_publication() {
+        return _publication;
+    }
+
+    public void set_author(List<Author> _author) {
+        this._author = _author;
+    }
+
+    public void set__Price(Double __Price) {
+        this.__Price = __Price;
+    }
+
+    public void set_Department_Id(int _Department_Id) {
+        this._Department_Id = _Department_Id;
+    }
+
+    public void set_Edition(String _Edition) {
+        this._Edition = _Edition;
+    }
+
+    public void set_Name(String _Name) {
+        this._Name = _Name;
+    }
+
+    public void set_publication(String _publication) {
+        this._publication = _publication;
     }
 
     public void set_author(List<Author> _author) {
