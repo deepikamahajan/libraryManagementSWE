@@ -45,6 +45,7 @@ public class Author {
         return birthDate;
     }
 
+
     public Date getDecased() {
         return decased;
     }
