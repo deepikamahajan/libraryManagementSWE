@@ -23,6 +23,7 @@ public class Student {
         this._FirstName = _FirstName;
     }
 
+
     public String get_SecondName() {
         return _SecondName;
     }
